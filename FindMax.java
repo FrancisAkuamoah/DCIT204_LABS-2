@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class FindMax {
-
-    // Linear Search - finds the maximum value and its index in an unsorted array
+// Linear Search - finds the maximum value and its index in an unsorted array
     public static int[] linearSearch(int[] arr) {
         int maxValue = arr[0];
         int maxIndex = 0;
